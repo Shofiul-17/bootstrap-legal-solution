@@ -55,8 +55,18 @@
     background: var(--banner-bg-gradient);
   }
 
-  .gradient {
+  .custom-gradient {
     background: var(--criminal-law-col-bg-gradient);
+  }
+
+  .custom-circle {
+    width: 75px;
+    height: 75px;
+    /* object-fit: cover; */
   }
   /* border: 1px solid #E7E7E7;
   background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%); */
+
+  .bg-overlay {
+    transform: rotate(deg);
+  }
