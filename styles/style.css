@@ -14,6 +14,7 @@
     --black: #231D4F;
     --gray: #848199;
     --blue: #3F87F5;
+    --bg: #F3F3F3;
     --pink: rgba(244, 150, 210, 0.103);
     --red: #FF4E4E;
     --white: #FFFFFF;
@@ -83,3 +84,6 @@
     /* width: 440px; */
     height: 510px;
   }
+
+  
+  
