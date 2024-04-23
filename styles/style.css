@@ -85,5 +85,32 @@
     height: 510px;
   }
 
+  /* .form-control, .from-select {
+    border-width: 3px;
+  } */
+
+  .form-control:focus {
+    box-shadow: none;
+    border: 3px solid #F3F3F3;
+  }
+
+  .border-md-end {
+    border-right: 1px solid;
+  }
+  .border-md-bottom {
+    border-bottom: 1px solid;
+  }
+
+
+  
+  /* For Small device */
+  /* @media screen and (max-width: 576px) { */
+  @media screen and (max-width: 576px) {
+    .border-md-end, .border-md-bottom {
+      border: none;
+    }
+  }
+
+
   
   

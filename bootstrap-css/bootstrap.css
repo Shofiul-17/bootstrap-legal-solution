@@ -42,8 +42,17 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+
+  /* ====== Original Value ====== */
   --bs-primary-rgb: 13, 110, 253;
+  /* ====== Coustom Value ====== */
+  --bs-primary-border: #CFCFCF;
+
+  /* ====== Original Value ====== */
   --bs-secondary-rgb: 108, 117, 125;
+  /* ====== Coustom Value ====== */
+  --bs-secondary: #707070;
+
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -7643,7 +7652,10 @@ textarea.form-control-lg {
 
 .border-primary {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  /* ====== Original Value ====== */
+  /* border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important; */
+  /* ====== Custom Value ====== */
+  border-color: var(--bs-primary-border) !important;
 }
 
 .border-secondary {
@@ -8615,8 +8627,12 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  /* ====== Original Value ====== */
+  /* --bs-text-opacity: 1;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important; */
+  
+  /* ====== Custom Value ====== */
+   color: var(--bs-secondary) !important;
 }
 
 .text-success {
