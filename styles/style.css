@@ -12,9 +12,14 @@
    ============================================================================= */
    :root {
     --black: #231D4F;
+    --dark-02: #414040;
     --gray: #848199;
+    --gray-03: #707070;
+    --gray-04: #A0A0A0;
+    --gray-05: #CFCFCF;
+    --gray-06: #E7E7E7;
+    --gray-07: #F3F3F3;
     --blue: #3F87F5;
-    --bg: #F3F3F3;
     --pink: rgba(244, 150, 210, 0.103);
     --red: #FF4E4E;
     --white: #FFFFFF;
@@ -24,7 +29,6 @@
     --primary-font: "EB Garamond", serif;
     --secondary-font: "Poppins", sans-serif;
     --bg-color: red;
-    --div-bg-color: #F3F3F3;
     --text-color: green;
     --div-padding: 10px;
     --div-margin: 10px;
