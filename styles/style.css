@@ -109,10 +109,51 @@
   
   /* For Small device */
   /* @media screen and (max-width: 576px) { */
-  @media screen and (max-width: 576px) {
+  @media only screen and (max-width: 576px) {
     .border-md-end, .border-md-bottom {
       border: none;
     }
+    .banner-custom-title-font {
+      width: 100%;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    .banner-custom-description-font {
+      width: 100%;
+      font-size: x-small;
+      margin-bottom: 5px;
+    }
+    .input-group > .form-control  {
+      font-size: x-small;
+      /* padding-left: 8px; */
+    }
+    .input-group > .btn  {
+      font-size: x-small;
+      padding: 0;
+    }
+    .carousel-indicators {
+      bottom: 0;
+      margin: 0;
+    }
+    .carousel-caption {
+      margin-bottom: 0;
+      right: 8%;
+      bottom: 0;
+      left: 8%;
+    }
+    .custom-circle {
+      width: 35px;
+      height: 35px;
+      /* object-fit: cover; */
+      border: 1px;
+    }
+    .carousel-caption > .title-font {
+      font-size: x-small;
+    }
+    .carousel-caption > .description-font {
+      font-size: xx-small;
+    }
+    
   }
 
 
